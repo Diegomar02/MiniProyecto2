@@ -40,13 +40,13 @@
     <nav>
       <ul class="nav justify-content-center" style="width: 100vw; text-align: center;">
         <li class="nav-item">
-          <a class="nav-link" href="../app/app.component.html">Inicio</a>
+          <a class="nav-link" routerLink="">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="queEs.html">¿Qué es airbnb?</a>
+          <a class="nav-link" href="">¿Qué es airbnb?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Ayuda</a>
+          <a routerLink="ayuda" class="nav-link" href="">Ayuda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacto</a>
@@ -57,5 +57,7 @@
       </ul>
     </nav>
   </div>
+
+  <router-outlet></router-outlet>
   
 
