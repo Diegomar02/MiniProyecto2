@@ -9,6 +9,8 @@ import { Airbnb6Component } from './airbnb6/airbnb6.component';
 import { Airbnb7Component } from './airbnb7/airbnb7.component';
 import { Airbnb8Component } from './airbnb8/airbnb8.component';
 import { Airbnb9Component } from './airbnb9/airbnb9.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { HeaderComponent } from './header/header.component';
 
 const routes: Routes = [
   { path:"airbnb1",component:Airbnb1Component},
@@ -20,6 +22,8 @@ const routes: Routes = [
   { path:"airbnb7",component:Airbnb7Component},
   { path:"airbnb8",component:Airbnb8Component},
   { path:"airbnb9",component:Airbnb9Component},
+  { path:"inicio",component:InicioComponent},
+  { path:"header",component:HeaderComponent},
 ];
 
 @NgModule({

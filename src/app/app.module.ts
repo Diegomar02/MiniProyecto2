@@ -15,6 +15,8 @@ import { Airbnb6Component } from './airbnb6/airbnb6.component';
 import { Airbnb7Component } from './airbnb7/airbnb7.component';
 import { Airbnb8Component } from './airbnb8/airbnb8.component';
 import { Airbnb9Component } from './airbnb9/airbnb9.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { Airbnb9Component } from './airbnb9/airbnb9.component';
     Airbnb7Component,
     Airbnb8Component,
     Airbnb9Component,
+    InicioComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
